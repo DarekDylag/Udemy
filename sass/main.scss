@@ -20,7 +20,7 @@ body {
 
 nav {
     text-transform: uppercase;
-
+    z-index: 1;
     a,
     i {
         color: $white;
@@ -57,7 +57,7 @@ header {
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
-        z-index: -2;
+        z-index: 0;
     }
 
     .hero-shadow {
