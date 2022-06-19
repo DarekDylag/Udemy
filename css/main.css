@@ -19,6 +19,7 @@ body {
 
 nav {
   text-transform: uppercase;
+  z-index: 1;
 }
 
 nav a,
@@ -57,7 +58,7 @@ header .hero-img {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  z-index: -2;
+  z-index: 0;
 }
 
 header .hero-shadow {
@@ -65,7 +66,7 @@ header .hero-shadow {
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-  z-index: -10;
+  z-index: -2;
 }
 
 header .hero-text {
@@ -85,7 +86,7 @@ header .hero-text {
   height: 100%;
   padding: 10px;
   text-align: center;
-  z-index: 5;
+  z-index: 1;
 }
 
 @media (min-width: 1200px) {
