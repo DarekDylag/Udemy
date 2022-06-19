@@ -22,21 +22,21 @@ nav {
   z-index: 1;
 }
 
-nav a,
-nav i {
-  color: #fff;
+nav a, nav i {
+  color: white;
 }
 
 nav a:hover {
   color: #039dff;
 }
 
-nav .fa-bars {
-  padding: 10px;
-}
-
 nav .navbar-brand {
   font-weight: bold;
+  color: white;
+}
+
+nav .fa-bars {
+  padding: 10px;
 }
 
 nav .active {
@@ -44,7 +44,7 @@ nav .active {
 }
 
 header {
-  color: #fff;
+  color: white;
 }
 
 header h1 {

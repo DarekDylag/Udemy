@@ -3,88 +3,89 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body {
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-    background-color: #444;
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #444;
 }
 
 .blue-text {
-    color: $blue-color;
+	color: $blue-color;
 }
 
 nav {
-    text-transform: uppercase;
-    z-index: 1;
-    a,
-    i {
-        color: $white;
-    }
+	text-transform: uppercase;
+	z-index: 1;
 
+    a, i {
+        color: $white;
+	}
+    
     a:hover {
         color: $blue-color;
     }
-
-    .fa-bars {
-        padding: 10px;
-    }
-
+    
     .navbar-brand {
         font-weight: bold;
+        color: $white;
     }
+	
+    .fa-bars {
+		padding: 10px;
+	}
+    
 
-    .active {
-        color: $blue-color;
-    }
+	.active {
+		color: $blue-color;
+	}
 }
 
 header {
-    color: $white;
+	color: $white;
 
-    h1 {
-        text-transform: uppercase;
-    }
+	h1 {
+		text-transform: uppercase;
+	}
 
-    .hero-img {
-        position: relative;
-        height: 100vh;
-        background-image: url('../img/header-mini.jpg');
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
-        z-index: 0;
-    }
+	.hero-img {
+		position: relative;
+		height: 100vh;
+		background-image: url('../img/header-mini.jpg');
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
+		z-index: 0;
+	}
 
-    .hero-shadow {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, .8);
-        z-index: -2;
-    }
+	.hero-shadow {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: $background;
+		z-index: -2;
+	}
 
-    .hero-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        height: 100%;
-        padding: 10px;
-        text-align: center;
-        z-index: 1;
-    }
+	.hero-text {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+		padding: 10px;
+		text-align: center;
+		z-index: 1;
+	}
 }
 
-
-@media(min-width: 1200px) {
-    header {
-        .hero-img {
-            background-image: url('../img/header-big.jpg');
-        }
-    }
+@media (min-width: 1200px) {
+	header {
+		.hero-img {
+			background-image: url('../img/header-big.jpg');
+		}
+	}
 }
