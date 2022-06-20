@@ -17,8 +17,17 @@ body {
   color: #039dff;
 }
 
+.shadow-bg {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
 nav {
   text-transform: uppercase;
+<<<<<<< HEAD
+=======
+  -webkit-transition: background-color .6s;
+  transition: background-color .6s;
+>>>>>>> dee0409d75999defe35a376cc4b1f29327db44cf
   z-index: 1;
 }
 
@@ -48,7 +57,12 @@ header {
 }
 
 header h1 {
+  font-size: 30px;
   text-transform: uppercase;
+}
+
+header p {
+  font-size: 14px;
 }
 
 header .hero-img {
@@ -89,6 +103,7 @@ header .hero-text {
   z-index: 5;
 }
 
+<<<<<<< HEAD
 header .btn-outline-light {
   text-transform: uppercase;
 }
@@ -101,6 +116,34 @@ header .fa-chevron-down {
   bottom: 20px;
   font-size: 30px;
   color: white;
+=======
+header .fa-chevron-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 30px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: #fff;
+}
+
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  header h1 {
+    font-size: 42px;
+  }
+  header p {
+    font-size: 20px;
+  }
+>>>>>>> dee0409d75999defe35a376cc4b1f29327db44cf
 }
 
 @media (min-width: 1200px) {
