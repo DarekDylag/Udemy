@@ -15,11 +15,11 @@ body {
 }
 
 .blue-text {
-    color: $blue-color;
+    color: $firts-color;
 }
 
 .shadow-bg {
-    background-color: rgba(0, 0, 0, .8);
+    background-color: $background;
 }
 
 nav {
@@ -29,11 +29,11 @@ nav {
 
     a,
     i {
-        color: $white;
+        color: $second-color;
     }
 
     a:hover {
-        color: $blue-color;
+        color: $firts-color;
     }
 
     .fa-bars {
@@ -45,12 +45,12 @@ nav {
     }
 
     .active {
-        color: $blue-color;
+        color: $firts-color;
     }
 }
 
 header {
-    color: $white;
+    color: $second-color;
 
     h1 {
         font-size: 30px;
@@ -75,7 +75,7 @@ header {
         position: absolute;
         width: 100%;
         height: 100%;
-        background-color: rgba(0, 0, 0, .8);
+        background-color: $background;
         z-index: -10;
     }
 
@@ -95,7 +95,7 @@ header {
         font-size: 30px;
         left: 50%;
         transform: translateX(-50%);
-        color: $white;
+        color: $second-color;
     }
 }
 @media(min-width:375px) {
