@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
 
-const nav = document.querySelector('.navbar')
+const nav = document.querySelector('navbar')
 
  function addShadow() {
 
