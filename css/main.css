@@ -23,11 +23,8 @@ body {
 
 nav {
   text-transform: uppercase;
-<<<<<<< HEAD
-=======
   -webkit-transition: background-color .6s;
   transition: background-color .6s;
->>>>>>> dee0409d75999defe35a376cc4b1f29327db44cf
   z-index: 1;
 }
 
@@ -103,28 +100,14 @@ header .hero-text {
   z-index: 5;
 }
 
-<<<<<<< HEAD
-header .btn-outline-light {
-  text-transform: uppercase;
-}
-
 header .fa-chevron-down {
   position: absolute;
+  bottom: 20px;
+  font-size: 30px;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  bottom: 20px;
-  font-size: 30px;
   color: white;
-=======
-header .fa-chevron-down {
-  position: absolute;
-  bottom: 20px;
-  font-size: 30px;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  color: #fff;
 }
 
 @media (min-width: 375px) {
@@ -143,7 +126,6 @@ header .fa-chevron-down {
   header p {
     font-size: 20px;
   }
->>>>>>> dee0409d75999defe35a376cc4b1f29327db44cf
 }
 
 @media (min-width: 1200px) {
