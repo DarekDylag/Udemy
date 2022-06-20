@@ -103,6 +103,15 @@ header .fa-chevron-down {
   color: white;
 }
 
+@media (min-width: 375px) {
+  header h1 {
+    font-style: 36px;
+  }
+  header p {
+    font-style: 16px;
+  }
+}
+
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-big.jpg");
