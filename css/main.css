@@ -89,6 +89,15 @@ header .hero-text {
   z-index: 1;
 }
 
+@media (min-width: 375px) {
+  header h1 {
+    font-size: 36px;
+  }
+  header p {
+    font-size: 16px;
+  }
+}
+
 @media (min-width: 1200px) {
   header .hero-img {
     background-image: url("../img/header-big.jpg");
