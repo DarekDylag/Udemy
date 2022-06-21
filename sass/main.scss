@@ -15,7 +15,7 @@ html {
 body {
 	position: relative;
 	font-family: 'Montserrat', sans-serif;
-	background-color: #444;
+	background-color: $section;
 }
 
 h2 {
@@ -237,8 +237,8 @@ header {
 
 @media(min-width: 992px) 
 {
-	html {
-		scroll-padding-top: 56px;
+	nav {
+		height: 82px;
 	}
 	
 	.aboutus-hero {
