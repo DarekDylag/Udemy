@@ -172,6 +172,28 @@ header {
 	}
 }
 
+.portfolio {
+
+	.carousel-item{
+		position: relative;
+		height: 600px;
+	}
+	.carousel-caption {
+		position:absolute;
+		left: 0;
+		right: 0;
+		padding: 40px 0;
+		background-color: rgba(0, 0, 0, 0.712);
+	}
+
+	.carousel-indicators {
+		padding-bottom: 20px;
+	}
+}
+
+
+
+
 
 @media (min-width: 375px) {
 	header {
@@ -220,7 +242,7 @@ header {
 	}
 	
 	.aboutus-hero {
-		background-image: url(/img/creating-big.jpg);
+		background-image: url(../img/creating-big.jpg);
 	}
 }
 
