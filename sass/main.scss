@@ -24,7 +24,7 @@ h2 {
 }
 
 .underline {
-	margin: 0 auto;
+	margin: 0 auto 40px;
 	width: 60px;
 	height: 4px;
 	background-color:$first-color;
@@ -158,6 +158,18 @@ header {
 		background-color: $background2;
 		z-index: -1;
 	}
+
+	.aboutus-hero-item {
+		margin: 10px 0;
+
+		i {
+			font-size: 30px;
+		}
+
+		.aboutus-hero-title {
+			font-size: 24px;
+		}
+	}
 }
 
 
@@ -201,9 +213,14 @@ header {
 	}
 }
 
-@media(min-width: 992px) {
+@media(min-width: 992px) 
+{
 	html {
 		scroll-padding-top: 56px;
+	}
+	
+	.aboutus-hero {
+		background-image: url(/img/creating-big.jpg);
 	}
 }
 
