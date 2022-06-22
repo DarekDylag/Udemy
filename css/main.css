@@ -299,14 +299,8 @@ header .fa-chevron-down {
   header p {
     font-size: 16px;
   }
-}
-
-@media (min-width: 375px) {
-  header h1 {
-    font-size: 36px;
-  }
-  header p {
-    font-size: 16px;
+  .team .card-body {
+    height: 160px;
   }
 }
 
@@ -317,6 +311,9 @@ header .fa-chevron-down {
   header p {
     font-size: 20px;
   }
+  .team .card-body {
+    height: 160px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -325,6 +322,9 @@ header .fa-chevron-down {
   }
   .aboutus-hero {
     background-image: url(../img/creating-big.jpg);
+  }
+  .team .card-body {
+    height: 160px;
   }
 }
 

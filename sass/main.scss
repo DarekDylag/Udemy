@@ -287,6 +287,7 @@ header {
 
 
 
+
 @media (min-width: 375px) {
 	header {
 		h1 {
@@ -296,19 +297,10 @@ header {
 			font-size: 16px;
 		}
 	}
-}
 
-
-
-
-
-@media (min-width: 375px) {
-	header {
-		h1 {
-			font-size: 36px;
-		}
-		p {
-			font-size: 16px;
+	.team {
+		.card-body {
+			height: 160px;
 		}
 	}
 }
@@ -325,6 +317,12 @@ header {
 			font-size: 20px;
 		}
 	}
+
+	.team {
+		.card-body {
+			height: 160px;
+		}
+	}
 }
 
 @media(min-width: 992px) 
@@ -335,6 +333,12 @@ header {
 	
 	.aboutus-hero {
 		background-image: url(../img/creating-big.jpg);
+	}
+
+	.team {
+		.card-body {
+			height: 160px;
+		}
 	}
 }
 
