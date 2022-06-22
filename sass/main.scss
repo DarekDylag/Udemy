@@ -283,7 +283,24 @@ header {
 			text-transform: uppercase;
 		}
 	}
+.achievements {
 
+	i{
+		padding: 10px;
+		font-size: 36px;
+		color: $second-color;
+		text-shadow: 0 0 5px black;
+	}
+	.achievements-title {
+		font-size: 22px;
+	}
+	.achievements-text {
+		font-size: 15px;
+		text-transform: uppercase;
+		padding: 20px;
+
+	}
+}
 
 
 
