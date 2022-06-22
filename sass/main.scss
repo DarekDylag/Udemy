@@ -27,7 +27,7 @@ h2 {
 	margin: 0 auto 40px;
 	width: 60px;
 	height: 4px;
-	background-color:$first-color;
+	background-color: $first-color;
 }
 
 .blue-text {
@@ -39,9 +39,9 @@ h2 {
 }
 
 nav {
-    text-transform: uppercase;
-    transition: background-color .6s;
-    z-index: 1;
+	text-transform: uppercase;
+	transition: background-color 0.6s;
+	z-index: 1;
 
 	a,
 	i {
@@ -116,12 +116,10 @@ header {
 }
 
 .aboutus {
-	
 	i {
 		margin-top: 20px;
 		font-size: 30px;
 	}
-
 
 	.aboutus-card-title {
 		font-size: 18px;
@@ -132,12 +130,12 @@ header {
 		font-size: 14px;
 	}
 
-	.aboutus-hover{
-		transition: color .3;
+	.aboutus-hover {
+		transition: color 0.3;
 	}
 
 	.aboutus-hover:hover {
-		color: $first-color
+		color: $first-color;
 	}
 }
 
@@ -148,7 +146,6 @@ header {
 	background-position: center;
 	color: $third-color;
 	z-index: 0;
-
 
 	.aboutus-shadow {
 		position: absolute;
@@ -173,13 +170,12 @@ header {
 }
 
 .portfolio {
-
-	.carousel-item{
+	.carousel-item {
 		position: relative;
 		height: 600px;
 	}
 	.carousel-caption {
-		position:absolute;
+		position: absolute;
 		left: 0;
 		right: 0;
 		padding: 40px 0;
@@ -191,18 +187,16 @@ header {
 	}
 }
 
-
 .prices {
-
 	.price-box {
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.507);
-		transition: .3s;
+		transition: 0.3s;
 		margin: 20px 10px;
 		background-color: $second-color;
 	}
 
 	h3 {
-		color:$first-color;
+		color: $first-color;
 		text-transform: uppercase;
 	}
 
@@ -223,69 +217,65 @@ header {
 		font-weight: bold;
 		font-size: 30px;
 	}
-.price-info {
-	text-align: center;
-	a {
-		text-decoration: none;
+	.price-info {
+		text-align: center;
+		a {
+			text-decoration: none;
+		}
 	}
-}
 
-.text-muted {
-	text-align: center;
-}
-
+	.text-muted {
+		text-align: center;
+	}
 }
 
 .price-box:hover {
-	transform:scale(1.05) ;
+	transform: scale(1.05);
 }
 
-
 .team {
-		position: relative;
-		background-image: url("../img/meeting-room-g7ab1aa7e3_640.jpg");
-		background-attachment: fixed;
-		background-size: cover;
-		z-index: 0;
-		
-		.hero-team {
-			position: absolute;
-			width: 100%;
-			height: 100%;
-			top: 0;
-			background-color: $background;
-			z-index: -1;
-		
-		}
+	position: relative;
+	background-image: url('../img/meeting-room-g7ab1aa7e3_640.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	z-index: 0;
 
-		h2 {
-			color: $third-color;
-		}
-		.card {
-			img {
-				height: 300px;
-				object-fit: cover;
-			}
-			i {
-				padding: 10px;
-			}
-
-			transition: .3s;
-		}
-
-		.card:hover {
-			transform: scale(.96);
-		}
-
-		.card-title {
-			margin-bottom: 20px;
-			text-align: center;
-			text-transform: uppercase;
-		}
+	.hero-team {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		background-color: $background;
+		z-index: -1;
 	}
-.achievements {
 
-	i{
+	h2 {
+		color: $third-color;
+	}
+	.card {
+		img {
+			height: 300px;
+			object-fit: cover;
+		}
+		i {
+			padding: 10px;
+		}
+
+		transition: 0.3s;
+	}
+
+	.card:hover {
+		transform: scale(0.96);
+	}
+
+	.card-title {
+		margin-bottom: 20px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+}
+.achievements {
+	i {
 		padding: 10px;
 		font-size: 36px;
 		color: $second-color;
@@ -298,28 +288,27 @@ header {
 		font-size: 15px;
 		text-transform: uppercase;
 		padding: 20px;
-
 	}
 }
 .contact {
 	position: relative;
 	background-image: url('/img/skyline-gf90577165_1920.jpg');
 	background-attachment: fixed;
-	background-position:bottom ;
+	background-position: bottom;
 	color: $second-color;
 	background-size: cover;
 	z-index: 0;
 
-		h2 {
-			color: $second-color;
-			font-weight: bold;
-		}
+	h2 {
+		color: $second-color;
+		font-weight: bold;
+	}
 
-		.contact-us {
-			display: flex;
-			align-items: center;
-			color: $second-color;
-		}
+	.contact-us {
+		display: flex;
+		align-items: center;
+		color: $second-color;
+	}
 
 	.underline {
 		background-color: $second-color;
@@ -327,10 +316,11 @@ header {
 
 	.contact-shadow {
 		position: absolute;
-		width: 100%;height: 100%;
-		background-color:rgba(0, 9, 27, 0.85);
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 9, 27, 0.85);
 		top: 0;
-		z-index: -1;		
+		z-index: -1;
 	}
 
 	.contact-item {
@@ -344,10 +334,10 @@ header {
 
 		.social-media {
 			font-size: 26px;
-			a{
+			a {
 				padding: 10px;
 				color: $second-color;
-				transition:color .3s;
+				transition: color 0.3s;
 			}
 			a:hover {
 				color: $first-color;
@@ -355,8 +345,6 @@ header {
 		}
 	}
 }
-
-
 
 @media (min-width: 375px) {
 	header {
@@ -375,9 +363,6 @@ header {
 	}
 }
 
-
-
-
 @media (min-width: 768px) {
 	header {
 		h1 {
@@ -395,12 +380,11 @@ header {
 	}
 }
 
-@media(min-width: 992px) 
-{
+@media (min-width: 992px) {
 	nav {
 		height: 82px;
 	}
-	
+
 	.aboutus-hero {
 		background-image: url(../img/creating-big.jpg);
 	}
